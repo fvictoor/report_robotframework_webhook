@@ -49,8 +49,8 @@ Crie um arquivo chamado `.env` e adicione as seguintes variáveis:
 | `TAGS`              | **(Obrigatório)** Uma lista de tags (separadas por vírgula) que devem ser analisadas individualmente no relatório. | `smoke,regression,critical`                                          |
 
 **Exemplo de arquivo `.env`:**
-```
-WEBHOOK_URL="[https://hooks.your-webhook-provider.com/services/](https://hooks.your-webhook-provider.com/services/)..."
+```bash
+WEBHOOK_URL="https://hooks.your-webhook-provider.com/services/"
 TAGS="smoke,regression,api"
 ```
 
